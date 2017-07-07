@@ -1,3 +1,5 @@
+
+
 Sample Spring Cloud Stream code to send and process "Work Units" with a RabbitMQ broker mediating the transfer
 
 == Steps
@@ -32,4 +34,8 @@ mvn spring-boot:run
 [source]
 ----
 http://localhost:8080/generateWork?definition=test
+----
+
+----
+https://dzone.com/articles/event-driven-microservices-using-spring-cloud-stre
 ----
