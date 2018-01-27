@@ -5,7 +5,14 @@
 	<groupId>bk.scstream.sample</groupId>
 	<artifactId>work-handler</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+    <packaging>jar</packaging>
 	<name>work-handler</name>
 
 	<parent>
